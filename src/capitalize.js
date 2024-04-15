@@ -1,5 +1,5 @@
 export const capitalize = (text) => {
-  if (!!text.length) {
+  if (text.length === 0) {
     return text;
   }
 
